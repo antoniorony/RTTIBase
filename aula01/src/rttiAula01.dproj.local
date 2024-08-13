@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/12 17:25:18.000.389,=E:\Users\Antonio\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/12 17:27:03.000.527,E:\Alterdata\Estudos\RTTI\aula01\src\view\Rtti.Aula01.View.Principal.dfm=E:\Users\Antonio\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/08/12 17:27:03.000.527,E:\Alterdata\Estudos\RTTI\aula01\src\view\Rtti.Aula01.View.Principal.pas=E:\Users\Antonio\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/12 18:37:32.000.056,E:\Alterdata\Estudos\RTTI\aula01\src\rttiAula01.dproj=E:\Users\Antonio\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/08/12 19:21:17.000.613,=E:\Alterdata\Estudos\RTTI\aula01\src\Unit2.pas</Transaction>
+    <Transaction>2024/08/12 19:21:33.000.004,E:\Alterdata\Estudos\RTTI\aula01\src\Unit2.dfm=E:\Alterdata\Estudos\RTTI\aula01\src\view\Rtti.Aula01.View.Calculadora.dfm</Transaction>
+    <Transaction>2024/08/12 19:21:33.000.004,E:\Alterdata\Estudos\RTTI\aula01\src\Unit2.pas=E:\Alterdata\Estudos\RTTI\aula01\src\view\Rtti.Aula01.View.Calculadora.pas</Transaction>
+  </Transactions>
+</BorlandProject>
