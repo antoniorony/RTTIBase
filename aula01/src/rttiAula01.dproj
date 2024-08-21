@@ -131,6 +131,15 @@
             <Form>Form2</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="view\Rtti.Aula02.View.Principal.pas">
+            <Form>Form3</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="model\Rtti.Aula02.Model.Pessoa.pas"/>
+        <DCCReference Include="utils\Rtti.Aula02.Utils.RttiUtils.pas"/>
+        <DCCReference Include="utils\Rttti.Aula02.Utils.Validacoes.pas"/>
+        <DCCReference Include="utils\atributos\AtributoExecutar.pas"/>
+        <DCCReference Include="utils\atributos\AtributoNotNull.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

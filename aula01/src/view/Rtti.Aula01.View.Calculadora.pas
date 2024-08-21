@@ -40,11 +40,11 @@ type
   private
     FObjeto: TComponent;
     FVariante: Variant;
-    procedure MeuMetodo(Sender: TObject);
     { Private declarations }
   public
     constructor Create(AOwner: TComponent); override;
     property Variante: Variant read FVariante write FVariante;
+    procedure MeuMetodo(Sender: TObject);
     { Public declarations }
   end;
 
@@ -67,7 +67,7 @@ end;
 
 procedure TForm2.MeuMetodo(Sender: TObject);
 begin
-  ShowMessage('Método chamado!');
+  ShowMessage('Método chamado da classe calculadora!');
 end;
 
 procedure TForm2.Button11Click(Sender: TObject);

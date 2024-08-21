@@ -52,8 +52,8 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 656
-    Top = 245
+    Left = 16
+    Top = 285
     Width = 385
     Height = 21
     Caption = 'GetProps e SetProps: Aperte F12, com o  campo clicado.'
@@ -66,7 +66,7 @@ object Form1: TForm1
   end
   object Label5: TLabel
     Left = 16
-    Top = 245
+    Top = 165
     Width = 112
     Height = 21
     Caption = 'FindComponent'
@@ -79,7 +79,7 @@ object Form1: TForm1
   end
   object Label6: TLabel
     Left = 16
-    Top = 272
+    Top = 192
     Width = 87
     Height = 15
     Caption = 'Informe o Name'
@@ -185,8 +185,8 @@ object Form1: TForm1
     end
   end
   object Edit7: TEdit
-    Left = 656
-    Top = 272
+    Left = 16
+    Top = 312
     Width = 385
     Height = 23
     TabOrder = 7
@@ -195,18 +195,47 @@ object Form1: TForm1
   end
   object Edit8: TEdit
     Left = 120
-    Top = 272
+    Top = 192
     Width = 121
     Height = 23
     TabOrder = 8
   end
   object Button3: TButton
     Left = 16
-    Top = 312
+    Top = 232
     Width = 87
     Height = 25
     Caption = 'Buscar'
     TabOrder = 9
     OnClick = Button3Click
+  end
+  object Panel1: TPanel
+    Left = 426
+    Top = 243
+    Width = 591
+    Height = 227
+    TabOrder = 10
+    object Label7: TLabel
+      Left = 24
+      Top = 8
+      Width = 216
+      Height = 25
+      Caption = 'Explorando a classe TRTTI'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Button4: TButton
+      Left = 24
+      Top = 48
+      Width = 75
+      Height = 25
+      Caption = 'System.RTTI'
+      TabOrder = 0
+      OnClick = Button4Click
+    end
   end
 end

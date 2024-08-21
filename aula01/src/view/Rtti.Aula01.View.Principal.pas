@@ -4,8 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
-  Vcl.ButtonStylesAttributes, Vcl.StyledButton, Rtti.Aula01.View.Calculadora;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Rtti.Aula01.View.Calculadora;
 
 type
   TForm1 = class(TForm)
@@ -30,11 +29,15 @@ type
     Edit8: TEdit;
     Label6: TLabel;
     Button3: TButton;
+    Panel1: TPanel;
+    Button4: TButton;
+    Label7: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure btnLimparClick(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Edit7KeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -45,6 +48,9 @@ var
   Form1: TForm1;
 
 implementation
+
+uses
+  Rtti.Aula02.View.Principal;
 
 {$R *.dfm}
 
@@ -96,6 +102,19 @@ begin
   Componente := FindComponent(Edit8.Text);
   if Componente is TEdit then
     ShowMessage(TEdit(Componente).Text);
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+var
+  lAula02 : TForm3;
+begin
+  lAula02 := TForm3.Create(nil);
+  try
+    lAula02.ShowModal;
+  finally
+    lAula02.Free;
+  end;
+
 end;
 
 procedure TForm1.Edit7KeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
